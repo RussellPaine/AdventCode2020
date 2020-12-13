@@ -29,7 +29,9 @@ fn main() {
                 if mutgrid[i][j] == 0 {
                     continue;
                 }
+
                 let mut seatcount = 0;
+                
                 for k in -1..2_i32 {
                     if i == 0 && k == -1 {
                         continue;
@@ -79,6 +81,6 @@ fn main() {
         else {
             println!("Failed");
         }
-        
+
     }
 }
